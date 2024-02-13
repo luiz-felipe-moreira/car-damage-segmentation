@@ -2,6 +2,8 @@
 
 Segmentação de instâncias de danos em automóveis usando Mask R-CNN. Implementação baseada em TensorFlow 2.15. Foi usado o Tensorflow Model Garden para construção do modelo, treinamento e avaliação da mAP. Para a visualização dos resultados e análises mais detalhadas foi usada a biblioteca FiftyOne.
 
+Os notebooks de treinamento pressupõem que o dataset já estão em um bucket do Google Cloud Storage, no formato TFRecord. É necessário executar previamente o notebook images-to-tfrecord.ipynb, que realiza a conversão de jpeg para tfrecord.
+
 Projeto desenvolvido durante a especialização em Data Science da UFRGS.
 
 Para melhor visualização dos jupyter notebooks (arquivos .ipynb), recomendo abrí-los no Googgle Colab, clicando no botão 'Open in Colab'.
