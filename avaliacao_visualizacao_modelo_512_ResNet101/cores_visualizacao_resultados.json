@@ -1,0 +1,81 @@
+{
+    "colorPool": [
+        "#EE0000",
+        "#EE6600",
+        "#993300",
+        "#996633",
+        "#999900",
+        "#009900",
+        "#003300",
+        "#009999",
+        "#000099",
+        "#0066FF",
+        "#6600FF",
+        "#CC33CC",
+        "#777799"
+    ],
+    "fields": [
+        {
+            "path": "ground_truth",
+            "fieldColor": null,
+            "colorByAttribute": "label",
+            "valueColors": [
+                {
+                    "value": "dent",
+                    "color": "#FFB5C1"
+                },
+                {
+                    "value": "scratch",
+                    "color": "#00A8E3"
+                },
+                {
+                    "value": "crack",
+                    "color": "#008000"
+                },
+                {
+                    "value": "glass shatter",
+                    "color": "#800080"
+                },
+                {
+                    "value": "lamp broken",
+                    "color": "#999900"
+                },
+                {
+                    "value": "tire flat",
+                    "color": "#E20038"
+                }
+            ]
+        },
+        {
+            "path": "predictions",
+            "fieldColor": null,
+            "colorByAttribute": "label",
+            "valueColors": [
+                {
+                    "value": "dent",
+                    "color": "#FFB5C1"
+                },
+                {
+                    "value": "scratch",
+                    "color": "#00A8E3"
+                },
+                {
+                    "value": "crack",
+                    "color": "#008000"
+                },
+                {
+                    "value": "glass shatter",
+                    "color": "#800080"
+                },
+                {
+                    "value": "lamp broken",
+                    "color": "#999900"
+                },
+                {
+                    "value": "tire flat",
+                    "color": "#E20038"
+                }
+            ]
+        }
+    ]
+}
